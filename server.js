@@ -2,6 +2,7 @@ var fs = require('fs');
 
 var _static = require('node-static');
 var file = new _static.Server('./public');
+var ip = '0.0.0.0'; 
 
 // don't forget to use your own keys!
 var options = {
@@ -108,4 +109,4 @@ function truncateChannels(websocket) {
     }
 }
 
-app.listen(8080);
+app.listen(ip, 8080);
