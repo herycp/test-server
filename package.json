@@ -4,7 +4,7 @@
   "description": "just test server",
   "main": "server.js",
   "dependencies": {
-    "WebSocket" : "^1.0.20",
+    "websocket" : "^1.0.20",
     "node-static" : "^0.7.0"
   },
   "engine": {
