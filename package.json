@@ -1,0 +1,23 @@
+{
+  "name": "test-server",
+  "version": "0.0.1",
+  "description": "just test server",
+  "main": "server.js",
+  "dependencies": {
+    "WebSocket" : "^1.0.20"
+    "node-static" : "^0.7.0"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/herycp/test-server.git"
+  },
+  "author": "Agus hariono <hery_cp@yahoo.co.id>",
+  "license": "CC-BY-1.0",
+  }
