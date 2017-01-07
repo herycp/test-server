@@ -12,7 +12,7 @@
     "npm": "*"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
   },
   "repository": {
     "type": "git",
